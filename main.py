@@ -1,7 +1,7 @@
 import pyjokes
 
-def tell_joke(lang="en"):
-    print(pyjokes.get_joke(language=lang))
+def tell_joke(lang="en", joke_type="all"):
+    print(pyjokes.get_joke(lang, joke_type))
 
 if __name__ == "__main__":
     lang = input("Choisissez une langue (en, de, es, it, gl, hu): ")
